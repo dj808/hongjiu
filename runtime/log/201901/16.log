@@ -1,0 +1,1125 @@
+[ 2019-01-16T16:02:38+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.jingguan.net/ [运行时间：0.240234s][吞吐率：4.16req/s] [内存消耗：5,964.59kb] [文件加载：62]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'purpose' => 'prefetch',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.040039s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\lp\WWW\jingguan\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014648s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_about` [ RunTime:0.017578s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_about` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_banner` [ RunTime:0.020508s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isdelete' in 'where clause'[D:\lp\WWW\jingguan\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:02:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.jingguan.net/admin [运行时间：0.095703s][吞吐率：10.45req/s] [内存消耗：6,058.96kb] [文件加载：68]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'purpose' => 'prefetch',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.044922s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.030274s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/admin' , 'admin' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1547625760) [ RunTime:0.005859s ]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:02:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/pub/login.html
+[ log ] www.jingguan.net/admin/pub/login.html [运行时间：0.052734s][吞吐率：18.96req/s] [内存消耗：5,980.43kb] [文件加载：66]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'purpose' => 'prefetch',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004882s ]
+[ info ] [ RUN ] app\admin\controller\Pub->login[ D:\lp\WWW\jingguan\application\admin\controller\Pub.php ]
+[ info ] [ VIEW ] D:\lp\WWW\jingguan/application/admin\view\pub\login.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.018554s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/admin/pub/login.html' , 'admin' , 'Pub' , 'login' , 'GET' , 'a:0:{}' , 1547625760) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:02:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/pub/login.html
+[ log ] www.jingguan.net/admin/pub/login.html [运行时间：0.051758s][吞吐率：19.32req/s] [内存消耗：5,980.03kb] [文件加载：66]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\admin\controller\Pub->login[ D:\lp\WWW\jingguan\application\admin\controller\Pub.php ]
+[ info ] [ VIEW ] D:\lp\WWW\jingguan/application/admin\view\pub\login.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.021484s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/admin/pub/login.html' , 'admin' , 'Pub' , 'login' , 'GET' , 'a:0:{}' , 1547625761) [ RunTime:0.000976s ]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:02:41+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ log ] www.jingguan.net/captcha.html [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,012.74kb] [文件加载：39]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/pub/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\lp\WWW\jingguan\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-16T16:02:41+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] www.jingguan.net/favicon.ico [运行时间：0.019532s][吞吐率：51.20req/s] [内存消耗：992.45kb] [文件加载：40]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/pub/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-16T16:02:52+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/pub/checklogin.html
+[ log ] www.jingguan.net/admin/pub/checklogin.html [运行时间：0.130860s][吞吐率：7.64req/s] [内存消耗：6,139.66kb] [文件加载：71]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pub',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/pub/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.jingguan.net',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '42',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'admin',
+  'password' => '123456',
+  'captcha' => 'y8j3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\admin\controller\Pub->checkLogin[ D:\lp\WWW\jingguan\application\admin\controller\Pub.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.010742s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001954s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin_user` [ RunTime:0.011718s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin_user` WHERE  `account` = 'admin'  AND `status` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] UPDATE `tp_admin_user`  SET `last_login_time`=1547625772,`login_count`=login_count+1,`last_login_ip`='127.0.0.1'  WHERE  `id` = 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_login_log` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] INSERT INTO `tp_login_log` (`uid` , `login_ip` , `login_location` , `login_browser` , `login_os`) VALUES (1 , '127.0.0.1' , '本机地址 本机地址  ' , 'Chrome(70.0.3538.110)' , 'Windows 7') [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009765s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/admin/pub/checklogin.html' , 'admin' , 'Pub' , 'checklogin' , 'POST' , 'a:3:{s:7:\"account\";s:5:\"admin\";s:8:\"password\";s:6:\"123456\";s:7:\"captcha\";s:4:\"y8j3\";}' , 1547625772) [ RunTime:0.000977s ]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:02:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] www.jingguan.net/admin/index/index.html [运行时间：0.106445s][吞吐率：9.39req/s] [内存消耗：6,190.14kb] [文件加载：69]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/pub/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\lp\WWW\jingguan\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan/application/admin\view\index\index.html [ array (
+  0 => 'groups',
+  1 => 'menu',
+) ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->menu[ D:\lp\WWW\jingguan\application\admin\widget\Index.php ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.012695s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin_node` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`name`,`group_id`,`title`,`type` FROM `tp_admin_node` WHERE  (  status=1 AND group_id > 0 ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin_group` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`icon` FROM `tp_admin_group` WHERE  `id` IN (1,2,3,4,5,6,7,8,10,11,12)  AND `status` = 1 ORDER BY sort asc,id asc [ RunTime:0.011718s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009765s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (1 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/admin/index/index.html' , 'admin' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1547625772) [ RunTime:0.000976s ]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:02:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/welcome.html
+[ log ] www.jingguan.net/admin/index/welcome.html [运行时间：0.070312s][吞吐率：14.22req/s] [内存消耗：6,082.30kb] [文件加载：67]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\lp\WWW\jingguan\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan/application/admin\view\index\welcome.html [ array (
+  0 => 'last_login_ip',
+  1 => 'last_login_loc',
+  2 => 'current_login_ip',
+  3 => 'current_login_loc',
+  4 => 'info',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.010743s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin_user` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (1 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/admin/index/welcome.html' , 'admin' , 'Index' , 'welcome' , 'GET' , 'a:0:{}' , 1547625772) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:02:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sqs/index.html
+[ log ] www.jingguan.net/admin/sqs/index.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：6,078.93kb] [文件加载：72]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sqs',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004882s ]
+[ info ] [ RUN ] app\admin\controller\Sqs->index[ D:\lp\WWW\jingguan\application\admin\controller\Sqs.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sqs` [ RunTime:0.025391s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isdelete' in 'where clause'[D:\lp\WWW\jingguan\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:03:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/zzcl/index.html
+[ log ] www.jingguan.net/admin/zzcl/index.html [运行时间：0.050782s][吞吐率：19.69req/s] [内存消耗：6,078.96kb] [文件加载：72]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'zzcl',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\admin\controller\Zzcl->index[ D:\lp\WWW\jingguan\application\admin\controller\Zzcl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_zzcl` [ RunTime:0.010742s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isdelete' in 'where clause'[D:\lp\WWW\jingguan\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:03:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sqs/index.html
+[ log ] www.jingguan.net/admin/sqs/index.html [运行时间：0.048828s][吞吐率：20.48req/s] [内存消耗：6,078.93kb] [文件加载：72]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sqs',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\admin\controller\Sqs->index[ D:\lp\WWW\jingguan\application\admin\controller\Sqs.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sqs` [ RunTime:0.009766s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isdelete' in 'where clause'[D:\lp\WWW\jingguan\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:03:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sqs/index.html
+[ log ] www.jingguan.net/admin/sqs/index.html [运行时间：0.069336s][吞吐率：14.42req/s] [内存消耗：6,106.59kb] [文件加载：68]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sqs',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\admin\controller\Sqs->index[ D:\lp\WWW\jingguan\application\admin\controller\Sqs.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan/application/admin\view\sqs\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.010743s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001954s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sqs` [ RunTime:0.009765s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sqs` WHERE  `isdelete` = 0 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (1 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/admin/sqs/index.html' , 'admin' , 'Sqs' , 'index' , 'GET' , 'a:0:{}' , 1547625836) [ RunTime:0.000977s ]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:03:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sqs/add.html
+[ log ] www.jingguan.net/admin/sqs/add.html [运行时间：0.087891s][吞吐率：11.38req/s] [内存消耗：6,289.55kb] [文件加载：70]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sqs',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/sqs/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\admin\controller\Sqs->add[ D:\lp\WWW\jingguan\application\admin\controller\Sqs.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan/application/admin\view\sqs\add.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.010742s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sqs` [ RunTime:0.010743s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sqs` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (1 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/admin/sqs/add.html' , 'admin' , 'Sqs' , 'add' , 'GET' , 'a:0:{}' , 1547625838) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:03:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ueditor/index.html?action=config&&noCache=1547625838786
+[ log ] www.jingguan.net/admin/ueditor/index.html?action=config&&noCache=1547625838786 [运行时间：0.044922s][吞吐率：22.26req/s] [内存消耗：5,747.09kb] [文件加载：60]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ueditor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/sqs/add.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1547625838786',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\admin\controller\Ueditor->index[ D:\lp\WWW\jingguan\application\admin\controller\Ueditor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.019531s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (1 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/admin/ueditor/index.html?action=config&&noCache=1547625838786' , 'admin' , 'Ueditor' , 'index' , 'GET' , 'a:2:{s:6:\"action\";s:6:\"config\";s:7:\"noCache\";s:13:\"1547625838786\";}' , 1547625838) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:04:16+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/ueditor/index.html?action=uploadFile&encode=utf-8
+[ log ] www.jingguan.net/admin/ueditor/index.html?action=uploadFile&encode=utf-8 [运行时间：0.543945s][吞吐率：1.84req/s] [内存消耗：6,123.52kb] [文件加载：70]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ueditor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/public/static/admin/lib/ueditor/1.4.3/dialogs/attachment/attachment.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWP1JL0pmY6MqAnPD',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'origin' => 'http://www.jingguan.net',
+  'content-length' => '7420',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'uploadFile',
+  'encode' => 'utf-8',
+  'id' => 'WU_FILE_0',
+  'name' => '11111.xls',
+  'type' => 'application/vnd.ms-excel',
+  'lastModifiedDate' => 'Wed Jan 16 2019 16:01:22 GMT+0800 (中国标准时间)',
+  'size' => '6656',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\admin\controller\Ueditor->index[ D:\lp\WWW\jingguan\application\admin\controller\Ueditor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.019532s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_file` [ RunTime:0.009765s ]
+[ sql ] [ SQL ] INSERT INTO `tp_file` (`cate` , `name` , `original` , `type` , `size` , `mtime`) VALUES (2 , 'file/jqywh534_2dh006u2iobo5c3ee5804c4b4.xls' , '11111.xls' , 'application/vnd.ms-excel' , 6656 , 1547625856) [ RunTime:0.037110s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (1 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/admin/ueditor/index.html?action=uploadFile&encode=utf-8' , 'admin' , 'Ueditor' , 'index' , 'POST' , 'a:7:{s:6:\"action\";s:10:\"uploadFile\";s:6:\"encode\";s:5:\"utf-8\";s:2:\"id\";s:9:\"WU_FILE_0\";s:4:\"name\";s:9:\"11111.xls\";s:4:\"type\";s:24:\"application/vnd.ms-excel\";s:16:\"lastModifiedDate\";s:54:\"Wed Jan 16 2019 16:01:22 GMT+0800 (中国标准时间)\";s:4:\"size\";s:4:\"6656\";}' , 1547625856) [ RunTime:0.008789s ]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:04:20+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/sqs/add
+[ log ] www.jingguan.net/admin/sqs/add [运行时间：0.059570s][吞吐率：16.79req/s] [内存消耗：6,069.63kb] [文件加载：67]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sqs',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/sqs/add.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.jingguan.net',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '447',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  'title' => '222222',
+  'editorValue' => '&lt;p style=&quot;line-height: 16px;&quot;&gt;&lt;img src=&quot;/public/static/admin/lib/ueditor/1.4.3/dialogs/attachment/fileTypeImages/icon_xls.gif&quot;/&gt;&lt;a style=&quot;font-size:12px; color:#0066cc;&quot; href=&quot;http://7j1y9l.com1.z0.glb.clouddn.com/file/jqywh534_2dh006u2iobo5c3ee5804c4b4.xls&quot; title=&quot;11111.xls&quot;&gt;11111.xls&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\admin\controller\Sqs->add[ D:\lp\WWW\jingguan\application\admin\controller\Sqs.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.010742s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sqs` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_sqs` (`title` , `editorValue` , `create_time`) VALUES ('222222' , '&lt;p style=&quot;line-height: 16px;&quot;&gt;&lt;img src=&quot;/public/static/admin/lib/ueditor/1.4.3/dialogs/attachment/fileTypeImages/icon_xls.gif&quot;/&gt;&lt;a style=&quot;font-size:12px; color:#0066cc;&quot; href=&quot;http://7j1y9l.com1.z0.glb.clouddn.com/file/jqywh534_2dh006u2iobo5c3ee5804c4b4.xls&quot; title=&quot;11111.xls&quot;&gt;11111.xls&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;' , 1547625860) [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (1 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/admin/sqs/add' , 'admin' , 'Sqs' , 'add' , 'POST' , 'a:2:{s:5:\"title\";s:6:\"222222\";s:11:\"editorValue\";s:200:\"&lt;p style=&quot;line-height: 16px;&quot;&gt;&lt;img src=&quot;/public/static/admin/lib/ueditor/1.4.3/dialogs/attachment/fileTypeImages/icon_xls.gif&quot;/&gt;&lt;a style=&quot;font-size:12px; color:\";}' , 1547625860) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:04:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sqs/index.html
+[ log ] www.jingguan.net/admin/sqs/index.html [运行时间：0.058593s][吞吐率：17.07req/s] [内存消耗：6,106.65kb] [文件加载：68]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sqs',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/sqs/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\admin\controller\Sqs->index[ D:\lp\WWW\jingguan\application\admin\controller\Sqs.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan/application/admin\view\sqs\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.010742s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sqs` [ RunTime:0.009765s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sqs` WHERE  `isdelete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (1 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/admin/sqs/index.html' , 'admin' , 'Sqs' , 'index' , 'GET' , 'a:0:{}' , 1547625860) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:04:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sqs/index.html
+[ log ] www.jingguan.net/admin/sqs/index.html [运行时间：0.058594s][吞吐率：17.07req/s] [内存消耗：6,106.59kb] [文件加载：68]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sqs',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\admin\controller\Sqs->index[ D:\lp\WWW\jingguan\application\admin\controller\Sqs.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan/application/admin\view\sqs\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.010743s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sqs` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sqs` WHERE  `isdelete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (1 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/admin/sqs/index.html' , 'admin' , 'Sqs' , 'index' , 'GET' , 'a:0:{}' , 1547625862) [ RunTime:0.000977s ]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:04:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sqs/index.html
+[ log ] www.jingguan.net/admin/sqs/index.html [运行时间：0.058594s][吞吐率：17.07req/s] [内存消耗：6,106.59kb] [文件加载：68]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sqs',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\admin\controller\Sqs->index[ D:\lp\WWW\jingguan\application\admin\controller\Sqs.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan/application/admin\view\sqs\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.010742s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001954s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sqs` [ RunTime:0.009765s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sqs` WHERE  `isdelete` = 0 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009765s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (1 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/admin/sqs/index.html' , 'admin' , 'Sqs' , 'index' , 'GET' , 'a:0:{}' , 1547625862) [ RunTime:0.000977s ]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:05:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sqs/index.html
+[ log ] www.jingguan.net/admin/sqs/index.html [运行时间：0.066406s][吞吐率：15.06req/s] [内存消耗：6,108.13kb] [文件加载：68]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sqs',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005860s ]
+[ info ] [ RUN ] app\admin\controller\Sqs->index[ D:\lp\WWW\jingguan\application\admin\controller\Sqs.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan/application/admin\view\sqs\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.010742s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002929s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sqs` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sqs` WHERE  `isdelete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009765s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (1 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/admin/sqs/index.html' , 'admin' , 'Sqs' , 'index' , 'GET' , 'a:0:{}' , 1547625903) [ RunTime:0.000977s ]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:05:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sqs/index.html
+[ log ] www.jingguan.net/admin/sqs/index.html [运行时间：0.058594s][吞吐率：17.07req/s] [内存消耗：6,108.13kb] [文件加载：68]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sqs',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\admin\controller\Sqs->index[ D:\lp\WWW\jingguan\application\admin\controller\Sqs.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan/application/admin\view\sqs\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.010743s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sqs` [ RunTime:0.008789s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sqs` WHERE  `isdelete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.008789s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (1 , '127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/admin/sqs/index.html' , 'admin' , 'Sqs' , 'index' , 'GET' , 'a:0:{}' , 1547625904) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-16T16:05:13+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.jingguan.net/ [运行时间：0.073242s][吞吐率：13.65req/s] [内存消耗：5,965.52kb] [文件加载：62]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\lp\WWW\jingguan\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_about` [ RunTime:0.022461s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_about` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_banner` [ RunTime:0.009766s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isdelete' in 'where clause'[D:\lp\WWW\jingguan\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2019-01-16T18:58:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index
+[ log ] www.jingguan.net/index/index/index [运行时间：0.087890s][吞吐率：11.38req/s] [内存消耗：5,967.39kb] [文件加载：62]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jpsrrf2qmn84sfaq4rgrpptl52',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.012696s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\lp\WWW\jingguan\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014648s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_about` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_about` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_banner` [ RunTime:0.010742s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isdelete' in 'where clause'[D:\lp\WWW\jingguan\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------

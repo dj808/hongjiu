@@ -1,0 +1,37 @@
+[ 2019-01-28T09:51:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/index
+[ log ] admin.jiu.net/index/login/index [运行时间：0.216796s][吞吐率：4.61req/s] [内存消耗：5,434.17kb] [文件加载：56]
+[ info ] [ LANG ] D:\lp\WWW\jiu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'purpose' => 'prefetch',
+  'connection' => 'close',
+  'host' => 'admin.jiu.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.070312s ]
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\lp\WWW\jiu\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Header may not contain more than a single header, new line detected[D:\lp\WWW\jiu\application\index\controller\Login.php:199]
+
+---------------------------------------------------------------

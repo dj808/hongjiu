@@ -1,0 +1,2025 @@
+[ 2019-01-10T20:43:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/sqs.html
+[ log ] www.jingguan.net/index/neiye/sqs.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：5,998.32kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'sqs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/jxgl.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/sqs_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.006836s ]
+[ info ] [ RUN ] app\index\controller\Neiye->sqs[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\sqs.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.022461s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.011719s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/sqs.html' , 'index' , 'Neiye' , 'sqs' , 'GET' , 'a:1:{s:21:\"/index/neiye/sqs_html\";s:0:\"\";}' , 1547124225) [ RunTime:0.000976s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T20:43:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/zysz.html
+[ log ] www.jingguan.net/index/neiye/zysz.html [运行时间：0.085937s][吞吐率：11.64req/s] [内存消耗：6,064.95kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'zysz',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/sqs.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/zysz_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\index\controller\Neiye->zysz[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\zysz.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.012696s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002929s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_zysz` [ RunTime:0.022461s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_zysz` LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.010743s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/zysz.html' , 'index' , 'Neiye' , 'zysz' , 'GET' , 'a:1:{s:22:\"/index/neiye/zysz_html\";s:0:\"\";}' , 1547124228) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T20:48:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/zysz.html
+[ log ] www.jingguan.net/index/neiye/zysz.html [运行时间：0.088867s][吞吐率：11.25req/s] [内存消耗：6,065.13kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'zysz',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/sqs.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/zysz_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.011719s ]
+[ info ] [ RUN ] app\index\controller\Neiye->zysz[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\zysz.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.011719s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013672s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_zysz` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_zysz` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/zysz.html' , 'index' , 'Neiye' , 'zysz' , 'GET' , 'a:1:{s:22:\"/index/neiye/zysz_html\";s:0:\"\";}' , 1547124501) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T20:48:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/sqs.html
+[ log ] www.jingguan.net/index/neiye/sqs.html [运行时间：0.053711s][吞吐率：18.62req/s] [内存消耗：5,998.18kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'sqs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/zysz.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/sqs_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.006836s ]
+[ info ] [ RUN ] app\index\controller\Neiye->sqs[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\sqs.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.021484s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.011719s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/sqs.html' , 'index' , 'Neiye' , 'sqs' , 'GET' , 'a:1:{s:21:\"/index/neiye/sqs_html\";s:0:\"\";}' , 1547124504) [ RunTime:0.000976s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T20:48:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/zysz.html
+[ log ] www.jingguan.net/index/neiye/zysz.html [运行时间：0.066406s][吞吐率：15.06req/s] [内存消耗：6,064.95kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'zysz',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/sqs.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/zysz_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004882s ]
+[ info ] [ RUN ] app\index\controller\Neiye->zysz[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\zysz.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.011719s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002929s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_zysz` [ RunTime:0.010743s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_zysz` LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/zysz.html' , 'index' , 'Neiye' , 'zysz' , 'GET' , 'a:1:{s:22:\"/index/neiye/zysz_html\";s:0:\"\";}' , 1547124505) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T20:48:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/neiye-jianshe1.html
+[ log ] www.jingguan.net/index/neiye/neiye-jianshe1.html [运行时间：0.035157s][吞吐率：28.44req/s] [内存消耗：5,470.97kb] [文件加载：58]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'neiye-jianshe1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/zysz.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/neiye-jianshe1_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005860s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-10T20:48:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/zysz.html
+[ log ] www.jingguan.net/index/neiye/zysz.html [运行时间：0.063477s][吞吐率：15.75req/s] [内存消耗：6,064.95kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'zysz',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/sqs.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/zysz_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\index\controller\Neiye->zysz[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\zysz.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.010742s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_zysz` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_zysz` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/zysz.html' , 'index' , 'Neiye' , 'zysz' , 'GET' , 'a:1:{s:22:\"/index/neiye/zysz_html\";s:0:\"\";}' , 1547124511) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T20:48:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/neiye-jianshe3.html
+[ log ] www.jingguan.net/index/neiye/neiye-jianshe3.html [运行时间：0.034180s][吞吐率：29.26req/s] [内存消耗：5,470.97kb] [文件加载：58]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'neiye-jianshe3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/zysz.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/neiye-jianshe3_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-10T20:49:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/zysz.html
+[ log ] www.jingguan.net/index/neiye/zysz.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：6,064.95kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'zysz',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/sqs.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/zysz_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\index\controller\Neiye->zysz[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\zysz.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.011719s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002929s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_zysz` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_zysz` LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/zysz.html' , 'index' , 'Neiye' , 'zysz' , 'GET' , 'a:1:{s:22:\"/index/neiye/zysz_html\";s:0:\"\";}' , 1547124560) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T20:49:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/kcsj.html
+[ log ] www.jingguan.net/index/neiye/kcsj.html [运行时间：0.069336s][吞吐率：14.42req/s] [内存消耗：6,064.82kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'kcsj',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/zysz.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/kcsj_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.006836s ]
+[ info ] [ RUN ] app\index\controller\Neiye->kcsj[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\kcsj.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.011719s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_kcsj` [ RunTime:0.013672s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_kcsj` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/kcsj.html' , 'index' , 'Neiye' , 'kcsj' , 'GET' , 'a:1:{s:22:\"/index/neiye/kcsj_html\";s:0:\"\";}' , 1547124562) [ RunTime:0.000977s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T20:49:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/neiye-kecheng1.html
+[ log ] www.jingguan.net/index/neiye/neiye-kecheng1.html [运行时间：0.034180s][吞吐率：29.26req/s] [内存消耗：5,470.97kb] [文件加载：58]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'neiye-kecheng1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/kcsj.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/neiye-kecheng1_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-10T20:49:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/kcsj.html
+[ log ] www.jingguan.net/index/neiye/kcsj.html [运行时间：0.063477s][吞吐率：15.75req/s] [内存消耗：6,064.82kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'kcsj',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/zysz.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/kcsj_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\index\controller\Neiye->kcsj[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\kcsj.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.012695s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_kcsj` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_kcsj` LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/kcsj.html' , 'index' , 'Neiye' , 'kcsj' , 'GET' , 'a:1:{s:22:\"/index/neiye/kcsj_html\";s:0:\"\";}' , 1547124569) [ RunTime:0.000977s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T20:49:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/kcsj.html
+[ log ] www.jingguan.net/index/neiye/kcsj.html [运行时间：0.065430s][吞吐率：15.28req/s] [内存消耗：6,064.82kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'kcsj',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/kcsj.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/kcsj_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\index\controller\Neiye->kcsj[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\kcsj.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.012695s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002929s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_kcsj` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_kcsj` LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/kcsj.html' , 'index' , 'Neiye' , 'kcsj' , 'GET' , 'a:1:{s:22:\"/index/neiye/kcsj_html\";s:0:\"\";}' , 1547124571) [ RunTime:0.000976s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:06:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/kcsj.html
+[ log ] www.jingguan.net/index/neiye/kcsj.html [运行时间：0.095704s][吞吐率：10.45req/s] [内存消耗：6,231.78kb] [文件加载：64]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'kcsj',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/kcsj.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/kcsj_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.011719s ]
+[ info ] [ RUN ] app\index\controller\Neiye->kcsj[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\kcsj.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.012695s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013672s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_kcsj` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_kcsj` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/kcsj.html' , 'index' , 'Neiye' , 'kcsj' , 'GET' , 'a:1:{s:22:\"/index/neiye/kcsj_html\";s:0:\"\";}' , 1547125603) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:06:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/jxgl.html
+[ log ] www.jingguan.net/index/neiye/jxgl.html [运行时间：0.077149s][吞吐率：12.96req/s] [内存消耗：6,284.50kb] [文件加载：69]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'jxgl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/kcsj.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/jxgl_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.006836s ]
+[ info ] [ RUN ] app\index\controller\Neiye->jxgl[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\jxgl.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003907s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_jxgl` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_jxgl` LIMIT 1 [ RunTime:0.000976s ]
+[ error ] [8]未定义变量: about[D:\lp\WWW\jingguan\runtime\temp\b16712629f0d487acf667ecc42d82560.php:104]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:06:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/kcsj.html
+[ log ] www.jingguan.net/index/neiye/kcsj.html [运行时间：0.064453s][吞吐率：15.52req/s] [内存消耗：6,064.68kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'kcsj',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/kcsj.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/kcsj_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005860s ]
+[ info ] [ RUN ] app\index\controller\Neiye->kcsj[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\kcsj.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.013672s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_kcsj` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_kcsj` LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.011719s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/kcsj.html' , 'index' , 'Neiye' , 'kcsj' , 'GET' , 'a:1:{s:22:\"/index/neiye/kcsj_html\";s:0:\"\";}' , 1547125607) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:06:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/zljk.html
+[ log ] www.jingguan.net/index/neiye/zljk.html [运行时间：0.072265s][吞吐率：13.84req/s] [内存消耗：6,288.44kb] [文件加载：69]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'zljk',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/kcsj.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/zljk_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\index\controller\Neiye->zljk[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\zljk.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_zljk` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_zljk` LIMIT 1 [ RunTime:0.003906s ]
+[ error ] [8]未定义变量: about[D:\lp\WWW\jingguan\runtime\temp\d8ad4960fc3f2014c90bc40f943b9f61.php:106]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:06:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/kcsj.html
+[ log ] www.jingguan.net/index/neiye/kcsj.html [运行时间：0.063476s][吞吐率：15.75req/s] [内存消耗：6,064.68kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'kcsj',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/kcsj.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/kcsj_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005860s ]
+[ info ] [ RUN ] app\index\controller\Neiye->kcsj[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\kcsj.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.012696s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002929s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_kcsj` [ RunTime:0.010743s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_kcsj` LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/kcsj.html' , 'index' , 'Neiye' , 'kcsj' , 'GET' , 'a:1:{s:22:\"/index/neiye/kcsj_html\";s:0:\"\";}' , 1547125610) [ RunTime:0.000977s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:06:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/zljk.html
+[ log ] www.jingguan.net/index/neiye/zljk.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：6,121.62kb] [文件加载：66]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'zljk',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/kcsj.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/zljk_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\index\controller\Neiye->zljk[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\zljk.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_zljk` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_zljk` LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: about[D:\lp\WWW\jingguan\runtime\temp\d8ad4960fc3f2014c90bc40f943b9f61.php:106]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/zljk.html
+[ log ] www.jingguan.net/index/neiye/zljk.html [运行时间：0.064453s][吞吐率：15.52req/s] [内存消耗：6,068.90kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'zljk',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/kcsj.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/zljk_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\index\controller\Neiye->zljk[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\zljk.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.011719s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002929s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_zljk` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_zljk` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/zljk.html' , 'index' , 'Neiye' , 'zljk' , 'GET' , 'a:1:{s:22:\"/index/neiye/zljk_html\";s:0:\"\";}' , 1547125685) [ RunTime:0.000977s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/zlxy.html
+[ log ] www.jingguan.net/index/neiye/zlxy.html [运行时间：0.074219s][吞吐率：13.47req/s] [内存消耗：6,235.63kb] [文件加载：64]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'zlxy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/zljk.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/zlxy_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005860s ]
+[ info ] [ RUN ] app\index\controller\Neiye->zlxy[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\zlxy.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.011719s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_zlxy` [ RunTime:0.014648s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_zlxy` LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/zlxy.html' , 'index' , 'Neiye' , 'zlxy' , 'GET' , 'a:1:{s:22:\"/index/neiye/zlxy_html\";s:0:\"\";}' , 1547125689) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/fwnl.html
+[ log ] www.jingguan.net/index/neiye/fwnl.html [运行时间：0.082031s][吞吐率：12.19req/s] [内存消耗：6,246.05kb] [文件加载：64]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'fwnl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/zlxy.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/fwnl_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004882s ]
+[ info ] [ RUN ] app\index\controller\Neiye->fwnl[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\fwnl.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.011719s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_fwnl` [ RunTime:0.017578s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_fwnl` LIMIT 1 [ RunTime:0.008790s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/fwnl.html' , 'index' , 'Neiye' , 'fwnl' , 'GET' , 'a:1:{s:22:\"/index/neiye/fwnl_html\";s:0:\"\";}' , 1547125691) [ RunTime:0.000977s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/images/neiye.jpg
+[ log ] www.jingguan.net/index/neiye/images/neiye.jpg [运行时间：0.037110s][吞吐率：26.95req/s] [内存消耗：5,470.52kb] [文件加载：58]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/fwnl.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/images/neiye_jpg' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/zlxsd.html
+[ log ] www.jingguan.net/index/neiye/zlxsd.html [运行时间：0.034180s][吞吐率：29.26req/s] [内存消耗：5,470.88kb] [文件加载：58]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'zlxsd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/fwnl.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/zlxsd_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/fwnl.html
+[ log ] www.jingguan.net/index/neiye/fwnl.html [运行时间：0.065429s][吞吐率：15.28req/s] [内存消耗：6,071.13kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'fwnl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/zlxy.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/fwnl_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\index\controller\Neiye->fwnl[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\fwnl.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.012695s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_fwnl` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_fwnl` LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/fwnl.html' , 'index' , 'Neiye' , 'fwnl' , 'GET' , 'a:1:{s:22:\"/index/neiye/fwnl_html\";s:0:\"\";}' , 1547125695) [ RunTime:0.000976s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/images/neiye.jpg
+[ log ] www.jingguan.net/index/neiye/images/neiye.jpg [运行时间：0.037110s][吞吐率：26.95req/s] [内存消耗：5,470.52kb] [文件加载：58]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/fwnl.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/images/neiye_jpg' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/jxgl.html
+[ log ] www.jingguan.net/index/neiye/jxgl.html [运行时间：0.063476s][吞吐率：15.75req/s] [内存消耗：6,066.02kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'jxgl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/fwnl.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/jxgl_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\index\controller\Neiye->jxgl[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\jxgl.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.011719s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_jxgl` [ RunTime:0.010743s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_jxgl` LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/jxgl.html' , 'index' , 'Neiye' , 'jxgl' , 'GET' , 'a:1:{s:22:\"/index/neiye/jxgl_html\";s:0:\"\";}' , 1547125698) [ RunTime:0.000976s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/zyys.html
+[ log ] www.jingguan.net/index/neiye/zyys.html [运行时间：0.075195s][吞吐率：13.30req/s] [内存消耗：6,235.42kb] [文件加载：64]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'zyys',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/jxgl.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/zyys_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004882s ]
+[ info ] [ RUN ] app\index\controller\Neiye->zyys[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\zyys.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.013672s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002929s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_zyys` [ RunTime:0.011719s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_zyys` LIMIT 1 [ RunTime:0.004883s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.012696s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/zyys.html' , 'index' , 'Neiye' , 'zyys' , 'GET' , 'a:1:{s:22:\"/index/neiye/zyys_html\";s:0:\"\";}' , 1547125699) [ RunTime:0.000976s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/jxgl.html
+[ log ] www.jingguan.net/index/neiye/jxgl.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：6,066.02kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'jxgl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/zyys.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/jxgl_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\index\controller\Neiye->jxgl[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\jxgl.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.011718s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_jxgl` [ RunTime:0.009765s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_jxgl` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/jxgl.html' , 'index' , 'Neiye' , 'jxgl' , 'GET' , 'a:1:{s:22:\"/index/neiye/jxgl_html\";s:0:\"\";}' , 1547125701) [ RunTime:0.000976s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/zljk.html
+[ log ] www.jingguan.net/index/neiye/zljk.html [运行时间：0.066406s][吞吐率：15.06req/s] [内存消耗：6,068.71kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'zljk',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/jxgl.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/zljk_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\index\controller\Neiye->zljk[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\zljk.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.014649s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_zljk` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_zljk` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.012695s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/zljk.html' , 'index' , 'Neiye' , 'zljk' , 'GET' , 'a:1:{s:22:\"/index/neiye/zljk_html\";s:0:\"\";}' , 1547125703) [ RunTime:0.000977s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/wwnl.html
+[ log ] www.jingguan.net/index/neiye/wwnl.html [运行时间：0.035156s][吞吐率：28.44req/s] [内存消耗：5,470.88kb] [文件加载：58]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'wwnl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/zljk.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/wwnl_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004882s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/zljk.html
+[ log ] www.jingguan.net/index/neiye/zljk.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：6,068.71kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'zljk',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/jxgl.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/zljk_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005860s ]
+[ info ] [ RUN ] app\index\controller\Neiye->zljk[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\zljk.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.011719s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_zljk` [ RunTime:0.010743s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_zljk` LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/zljk.html' , 'index' , 'Neiye' , 'zljk' , 'GET' , 'a:1:{s:22:\"/index/neiye/zljk_html\";s:0:\"\";}' , 1547125708) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/kcsj.html
+[ log ] www.jingguan.net/index/neiye/kcsj.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：6,064.68kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'kcsj',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/zljk.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/kcsj_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\index\controller\Neiye->kcsj[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\kcsj.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.011719s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002929s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_kcsj` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_kcsj` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/kcsj.html' , 'index' , 'Neiye' , 'kcsj' , 'GET' , 'a:1:{s:22:\"/index/neiye/kcsj_html\";s:0:\"\";}' , 1547125710) [ RunTime:0.000977s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/kcss.html
+[ log ] www.jingguan.net/index/neiye/kcss.html [运行时间：0.072266s][吞吐率：13.84req/s] [内存消耗：6,235.41kb] [文件加载：64]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'kcss',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/kcsj.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/kcss_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\index\controller\Neiye->kcss[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\kcss.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.012695s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_kcss` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_kcss` LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009765s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/kcss.html' , 'index' , 'Neiye' , 'kcss' , 'GET' , 'a:1:{s:22:\"/index/neiye/kcss_html\";s:0:\"\";}' , 1547125713) [ RunTime:0.000976s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/kcgg.html
+[ log ] www.jingguan.net/index/neiye/kcgg.html [运行时间：0.066406s][吞吐率：15.06req/s] [内存消耗：6,235.92kb] [文件加载：64]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'kcgg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/kcss.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/kcgg_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\index\controller\Neiye->kcgg[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\kcgg.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.011719s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_kcgg` [ RunTime:0.011719s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_kcgg` LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/kcgg.html' , 'index' , 'Neiye' , 'kcgg' , 'GET' , 'a:1:{s:22:\"/index/neiye/kcgg_html\";s:0:\"\";}' , 1547125715) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/jxzy.html
+[ log ] www.jingguan.net/index/neiye/jxzy.html [运行时间：0.068359s][吞吐率：14.63req/s] [内存消耗：6,254.75kb] [文件加载：64]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'jxzy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/kcgg.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/jxzy_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\index\controller\Neiye->jxzy[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\jxzy.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.011719s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_jxzy` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_jxzy` LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/jxzy.html' , 'index' , 'Neiye' , 'jxzy' , 'GET' , 'a:1:{s:22:\"/index/neiye/jxzy_html\";s:0:\"\";}' , 1547125717) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/jxzy.html
+[ log ] www.jingguan.net/index/neiye/jxzy.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：6,083.84kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'jxzy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/jxzy.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/jxzy_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\index\controller\Neiye->jxzy[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\jxzy.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.011719s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_jxzy` [ RunTime:0.010743s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_jxzy` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009765s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/jxzy.html' , 'index' , 'Neiye' , 'jxzy' , 'GET' , 'a:1:{s:22:\"/index/neiye/jxzy_html\";s:0:\"\";}' , 1547125719) [ RunTime:0.000977s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/jfbz.html
+[ log ] www.jingguan.net/index/neiye/jfbz.html [运行时间：0.065430s][吞吐率：15.28req/s] [内存消耗：6,234.50kb] [文件加载：64]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'jfbz',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/jxzy.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/jfbz_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005860s ]
+[ info ] [ RUN ] app\index\controller\Neiye->jfbz[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\jfbz.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.010742s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_jfbz` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_jfbz` LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/jfbz.html' , 'index' , 'Neiye' , 'jfbz' , 'GET' , 'a:1:{s:22:\"/index/neiye/jfbz_html\";s:0:\"\";}' , 1547125721) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/dwjg.html
+[ log ] www.jingguan.net/index/neiye/dwjg.html [运行时间：0.066406s][吞吐率：15.06req/s] [内存消耗：6,232.25kb] [文件加载：64]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'dwjg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/jfbz.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/dwjg_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\index\controller\Neiye->dwjg[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\dwjg.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.011719s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_dwjg` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_dwjg` LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/dwjg.html' , 'index' , 'Neiye' , 'dwjg' , 'GET' , 'a:1:{s:22:\"/index/neiye/dwjg_html\";s:0:\"\";}' , 1547125723) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/jgky.html
+[ log ] www.jingguan.net/index/neiye/jgky.html [运行时间：0.074219s][吞吐率：13.47req/s] [内存消耗：6,251.05kb] [文件加载：64]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'jgky',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/dwjg.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/jgky_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\index\controller\Neiye->jgky[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\jgky.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.010742s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_jgky` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_jgky` LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/jgky.html' , 'index' , 'Neiye' , 'jgky' , 'GET' , 'a:1:{s:22:\"/index/neiye/jgky_html\";s:0:\"\";}' , 1547125724) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/dwjg.html
+[ log ] www.jingguan.net/index/neiye/dwjg.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：6,065.34kb] [文件加载：61]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'dwjg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/jgky.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/dwjg_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005859s ]
+[ info ] [ RUN ] app\index\controller\Neiye->dwjg[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\dwjg.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.010743s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001954s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_dwjg` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_dwjg` LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/dwjg.html' , 'index' , 'Neiye' , 'dwjg' , 'GET' , 'a:1:{s:22:\"/index/neiye/dwjg_html\";s:0:\"\";}' , 1547125726) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/zysz.html
+[ log ] www.jingguan.net/index/neiye/zysz.html [运行时间：0.066406s][吞吐率：15.06req/s] [内存消耗：6,231.73kb] [文件加载：64]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'zysz',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/dwjg.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/zysz_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.005860s ]
+[ info ] [ RUN ] app\index\controller\Neiye->zysz[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\zysz.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.012696s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_zysz` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_zysz` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/zysz.html' , 'index' , 'Neiye' , 'zysz' , 'GET' , 'a:1:{s:22:\"/index/neiye/zysz_html\";s:0:\"\";}' , 1547125727) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/zyjs.html
+[ log ] www.jingguan.net/index/neiye/zyjs.html [运行时间：0.077149s][吞吐率：12.96req/s] [内存消耗：6,251.21kb] [文件加载：64]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'zyjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/zysz.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/zyjs_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\index\controller\Neiye->zyjs[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\zyjs.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.012696s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_zyjs` [ RunTime:0.019531s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_zyjs` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.010742s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/zyjs.html' , 'index' , 'Neiye' , 'zyjs' , 'GET' , 'a:1:{s:22:\"/index/neiye/zyjs_html\";s:0:\"\";}' , 1547125729) [ RunTime:0.000977s ]
+
+---------------------------------------------------------------
+[ 2019-01-10T21:08:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/neiye/rcpy.html
+[ log ] www.jingguan.net/index/neiye/rcpy.html [运行时间：0.070312s][吞吐率：14.22req/s] [内存消耗：6,274.88kb] [文件加载：64]
+[ info ] [ LANG ] D:\lp\WWW\jingguan\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'neiye',
+    2 => 'rcpy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=vdk9pjlil647idaginqvp3sbu4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.jingguan.net/index/neiye/zyjs.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.jingguan.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/neiye/rcpy_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.004883s ]
+[ info ] [ RUN ] app\index\controller\Neiye->rcpy[ D:\lp\WWW\jingguan\application\index\controller\Neiye.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jingguan\public/../application/index\view\neiye\rcpy.html [ array (
+  0 => 'about',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.011719s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:dbname=jingguan;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_rcpy` [ RunTime:0.013672s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rcpy` LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.009766s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES ('127.0.0.1' , '本机地址 本机地址  ' , 'Windows 7' , 'Chrome(70.0.3538.110)' , 'http://www.jingguan.net/index/neiye/rcpy.html' , 'index' , 'Neiye' , 'rcpy' , 'GET' , 'a:1:{s:22:\"/index/neiye/rcpy_html\";s:0:\"\";}' , 1547125731) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------

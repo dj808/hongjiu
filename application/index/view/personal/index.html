@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>个人中心</title>
+		<link href="__STATIC__/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="__STATIC__/css/style.css" />
+		<link rel="stylesheet" href="__STATIC__/fonts/css/font-awesome.min.css">
+		
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="person">
+			   <img src="{$referrer.avatar}"/>
+				<p>昵称</p>
+				<p>推荐人:{$referrer.nickname}</p>
+				
+			</div>
+			
+			<!--我的团队-->
+			<div class="area11 clearfix">
+				<p>我的团队<span class="red">（{$teamNum}人）</span></p>
+				
+				{volist name="team" id="vo"}
+					<div class="area11-pa">
+						<img src="{$vo.avatar}"/>
+						<p>{$vo.nickname}</p>
+					</div>
+					
+			     {/volist}
+				 
+			</div>
+			<!--我的团队结束-->
+			
+			<!--页面底部-->
+
+			<!--页面底部结束-->
+		</div>
+	</body>
+</html>

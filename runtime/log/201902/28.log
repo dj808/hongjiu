@@ -1,0 +1,112 @@
+[ 2019-02-28T19:45:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index
+[ log ] admin.jiu.net/index/index/index [运行时间：0.324219s][吞吐率：3.08req/s] [内存消耗：5,922.27kb] [文件加载：58]
+[ info ] [ LANG ] D:\lp\WWW\jiu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.guoguo.net/index/join/index.html?',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'admin.jiu.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @module_init [ RunTime:0.051758s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\lp\WWW\jiu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\lp\WWW\jiu/application/index\view\index\index.html [ array (
+  0 => 'joinNum',
+  1 => 'joinCount',
+  2 => 'userId',
+  3 => 'shareNum',
+  4 => 'shareCount',
+) ]
+[ info ] [ BEHAVIOR ] Run \app\common\behavior\WebLog @app_end [ RunTime:0.035156s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010742s ] mysql:dbname=jiu;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_join_num` [ RunTime:0.033204s ]
+[ sql ] [ SQL ] SELECT `nickname`,`avatar` FROM `tp_join_num` [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `tp_join_num` LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_join_num` WHERE  `open_id` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_share_num` [ RunTime:0.020508s ]
+[ sql ] [ SQL ] SELECT `a`.`share_money`,`a`.`create_time`,`b`.`nickname`,`b`.`avatar`,`b`.`phone` FROM `tp_share_num` `a` INNER JOIN `tp_join_num` `b` ON `a`.`user_id`=`b`.`id` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `tp_share_num` LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_web_log_all` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] INSERT INTO `tp_web_log_all` (`uid` , `ip` , `location` , `os` , `browser` , `url` , `module` , `controller` , `action` , `method` , `data` , `create_at`) VALUES (0 , '127.0.0.1' , '本机地址 本机地址  ' , 'Mac' , 'Safari(604.1)' , 'http://admin.jiu.net/index/index/index' , 'index' , 'Index' , 'index' , 'GET' , 'a:0:{}' , 1551354343) [ RunTime:0.000976s ]
+
+---------------------------------------------------------------
+[ 2019-02-28T19:45:44+08:00 ] 127.0.0.1 127.0.0.1 GET /public/static/index//public/static/index/images/hongjiu.png
+[ log ] admin.jiu.net/public/static/index//public/static/index/images/hongjiu.png [运行时间：0.033203s][吞吐率：30.12req/s] [内存消耗：993.59kb] [文件加载：40]
+[ info ] [ LANG ] D:\lp\WWW\jiu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=avn68m8s5dhsfg6ca0kn89crf1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.jiu.net/index/index/index',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'connection' => 'close',
+  'host' => 'admin.jiu.net',
+)
+[ info ] [ PARAM ] array (
+  'public' => 'static',
+  'index' => 'images',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-02-28T19:45:45+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] admin.jiu.net/favicon.ico [运行时间：0.025391s][吞吐率：39.38req/s] [内存消耗：992.89kb] [文件加载：40]
+[ info ] [ LANG ] D:\lp\WWW\jiu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=avn68m8s5dhsfg6ca0kn89crf1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://admin.jiu.net/index/index/index',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'connection' => 'close',
+  'host' => 'admin.jiu.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

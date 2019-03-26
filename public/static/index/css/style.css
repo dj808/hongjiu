@@ -1,0 +1,439 @@
+@charset "utf-8";
+ul,li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	padding-top:4rem;
+}
+
+.area1 h3{
+	color: #c8913d;
+	font-weight: bold;
+	font-size: 1.8rem;
+}
+.area1 h2{
+	color: #fff;
+	font-weight: bold;
+	font-size: 2rem
+}
+.area1 .video{
+	width: 100%;
+	background: #fff;
+	padding: 1%;
+	border-radius: 1%;
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+.area1 .video video{
+	width: 100%;
+	
+}
+
+.area2 .area2-tab{
+	color: #fff;
+	background: #90021f;
+	display: inline-block;
+	padding:0 4%;
+	margin-bottom: 0;
+	margin-left: 4%;
+	height: 2rem;
+	line-height: 2rem;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+.area2 .area2-box{
+	border: 3px solid #90021F;
+	background: #fff;
+	padding:2rem 4%;
+	border-radius: 15px;
+}
+.area2-box h3{
+	color: #c8913d;
+	font-weight: bold;
+	font-size: 1.8rem;
+	text-align: center;
+	margin-top: 0;
+}
+.area2-box h2{
+	background: #90021F;
+	color: #fff;
+	height: 3rem;
+	line-height: 3rem;
+	border-radius: 1.5rem;
+	margin: 10px 0;
+	font-size: 2rem;
+	font-weight: normal;
+	text-align: center;
+	letter-spacing: 2%;
+	letter-spacing: 10px;
+}
+.area2-box li{
+	background: url(../images/dian.png) no-repeat;
+	padding-left: 20px;
+	font-size: 1rem
+	line-height: 24px;
+	background-position:0 5px ;
+}
+.area2-box img{
+	display: block;
+	width: 30%;
+	margin: 10px auto;
+}
+
+
+.area3{
+	
+	margin:2rem auto;
+	border-radius: 15px;
+	background: #fff;
+	padding:1rem 0 0 0;
+	overflow: hidden;
+}
+.area3>p{
+	padding-left: 0.25rem;
+}
+.area3>div{
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 0;
+	overflow: hidden;
+
+}
+.area3 div img{
+	display: block;
+	width: 100%;
+	border-radius: 50%;
+}
+.area3 .area3-pa{
+	padding: 0.25rem;
+	text-align: center;
+}
+.area4{
+	margin:2rem auto;
+	border-radius: 15px;
+	background: #fff;
+	padding:1rem 0 1rem 0;
+}
+.area4-box{
+	height: 15rem;
+	overflow-y: scroll;
+}
+.area4>p{
+	padding-left: 0.25rem;
+}
+.area4 img{
+	width: 100%;
+}
+.area4 li div{
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.area4 li div p:first-child{
+	margin-bottom: 0.25rem;
+}
+.area4-pay{
+	color: #f24724;
+}
+
+.area5{
+	margin: 2rem 0;
+}
+.area5 h2{
+	color: #c8913d;
+	font-weight: bold;
+	font-size: 3rem;
+	margin: 0;
+}
+.area5 h3{
+	font-weight: bold;
+	color: #fff;
+	font-size: 1.5rem;
+	margin: 1rem 0 1rem 0;
+}
+.area5 li{
+	margin-bottom: 1rem;
+}
+.area5 img{
+	width: 100%;
+}
+
+.area6{
+	background: url(../images/bottom.png) no-repeat;
+	background-size:cover;
+	padding: 5rem 1rem 4rem 2rem;
+	margin-bottom: 5rem;
+}
+.area6 p{
+	margin-bottom: 0;
+}
+.area6 span{
+	color: #cd2d24;
+}
+.area6 h3{
+	color: #e2b017;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0;
+	height: 4rem;
+	line-height: 4rem;
+	text-align: center;
+	width: 100%;
+}
+.footer a{
+	color: #fff;
+	display: block;
+}
+.footer .jiameng{
+	background: #d0022c;
+	font-size: 2rem;
+	padding: 0;
+}
+.footer .fenxiang{
+	background: #90011e;
+	font-size: 2rem;
+	padding: 0;
+}
+.footer .personal{
+	background: #90011e;
+	font-size: 2rem;
+	padding: 0;
+}
+
+/*登录*/
+.area1 img{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+.area7{
+	padding: 0 8%;
+	margin-bottom: 4rem;
+}
+.area7 h1{
+	text-align: center;
+	font-size: 2rem;
+	color: #fff;
+	font-weight: bold;
+}
+.area7>p{
+	background: #fff;
+	height: 2rem;
+	line-height: 2rem;
+	border-radius: 1rem;
+	margin: 0 auto;
+	text-align: center;
+	color: #d08423;
+}
+.area7 form{
+	margin: 2rem 0;
+	position: relative;
+}
+.area7 form div{
+	margin-bottom: 1rem;
+	height: 4rem;
+	line-height: 4rem;
+	/*background: #fff;*/
+	color: #d1d1d1;
+}
+.area7 form label{
+	display: inline-block;
+	width: 22%;
+	padding-left: 2%;
+	height: 4rem;
+	line-height: 4rem;
+	background: #fff;
+	position: relative;
+}
+.area7 form label i{
+	font-size: 2rem;
+	line-height: 4rem;
+	margin-right: 2%;
+	display: inline-block;
+}
+.area7 form label span{
+	position: absolute;
+	line-height: 4rem;
+}
+.area7 form input{
+	height: 4rem;
+	line-height: 4rem;
+	position: absolute;
+	left: 22%;
+	width: 78%;
+	border: none;
+	padding-left: 5%;
+	color: #666;
+	border-radius: 0;
+}
+.area7 form .code input{
+	width: 40%;
+	border-radius: 0;
+}
+.area7 form .yanzheng{
+	height: 4rem;
+	line-height: 4rem;
+	position: absolute;
+	background: #fff;
+	left: 62%;
+	width: 38%;
+	padding-left: 5%;
+}
+.area7 form .yanzheng a{
+	display: inline-block;
+	background: #d0022c;
+	color: #fff;
+	height: 2rem;
+	line-height: 2rem;
+	border-radius: 1rem;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+.area7 form button{
+	margin-bottom: 0;
+	width: 100%;
+	font-size: 2rem;
+	background: #d0022c;
+	text-align: center;
+	color: #fff;
+}
+/*登录结束*/
+/*分享开始*/
+.area8{
+	position: relative;
+}
+.area8 .share{
+	width:100%;
+}
+.area8 img{
+	display: block;
+	width: 100%;
+}
+.area8 button{
+	background: #d0022c;
+	color:#fff;
+	width: 80%;
+	display: block;
+	height: 4rem;
+	line-height: 4rem;
+	font-size: 2rem;
+	padding: 0;
+	border-radius: 2rem;
+	position: absolute;
+	bottom:5%;
+	left: 10%;
+}
+/*分享结束*/
+/*加盟开始*/
+.area9 h1{
+	text-align: center;
+	font-weight: normal;
+	font-size: 3rem;
+	margin: 0;
+}
+.area9 form{
+	margin: 2rem 0;
+}
+.area9 form input{
+	display: block;
+	width: 100%;
+	margin-bottom: 1rem;
+	height: 3rem;
+	line-height: 3rem;
+	border: 1px solid #999;
+	border-radius: 5px;
+	font-size: 1rem;
+	padding-left:5%;
+}
+.area9 form button{
+	width: 100%;
+	background: #af1635;
+	height: 3rem;
+	line-height: 3rem;
+	padding: 0;
+	color: #fff;
+}
+/*加盟结束*/
+
+/*投诉*/
+.area10 li{
+	height: 4rem;
+	padding-left: 10%;
+	line-height: 4rem;
+	background: #fff;
+	border-bottom: 1px solid #e0e0e0;
+}
+.area10 li:first-child{
+	background: #f0f0f0;
+	color: #999;
+}
+.area10 li a{
+	color: #333;
+}
+.area10 .jiechi{
+	display: inline-block;
+	margin-left: 10%;
+	color: #46628c;
+	line-height: 2rem;
+}
+.area10 .tousu{
+	text-align: center;
+	display: block;
+	position: absolute;
+	bottom: 2rem;
+	width: 100%;
+}
+.area10 .tousu a{
+	color: #46628c;
+}
+/*投诉结束*/
+
+.person {
+	margin-bottom: 2rem;
+}
+.person img{
+	display: block;
+	margin: 0 auto;
+	width: 6rem;
+	height: 6rem;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-bottom: 1rem;
+}
+.person p{
+	color: #fff;
+	font-size: 1.5rem;
+	text-align: center;
+}
+.person p:nth-child(2){
+	margin-bottom: 0;
+}
+.area11{
+	background: #fff;
+	border-radius: 1rem;
+	padding: 1rem 0;
+	min-height: 40rem;
+}
+.red{
+	color:red;
+}
+.area11 > p{
+	padding-left: 1rem;
+}
+.area11 div img{
+	display: block;
+	width: 100%;
+	border-radius: 50%;
+}
+.area11 .area11-pa{
+	padding: 0.25rem;
+	text-align: center;
+}
+
+
